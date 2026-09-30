@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* link website */
+/* https://preview.colorlib.com/theme/fashe/index.html */
+
+
+/* watching stat */
+/* npx @tailwindcss/cli -i ./src/App.css -o ./src/master.css --watch    */
+
+
+@theme {
+    --color-dark: #141414;
+    --color-white: #FFFFFF;
+    --color-kraime:#F4F2EE;
+    --color-brwon:#6F656A;
+    --font-family-Assistant: "Assistant", sans-serif;
+
+    
+}
+.product-image {
+    transition: opacity 0.5s ease;
+}
+#menuo {
+    width: 90%;
+    height: 600px;
+    background-color: ghostwhite;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+    /* حالت بسته */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+
+    /* انیمیشن */
+    transition:
+        transform 0.5s ease,
+        opacity 0.4s ease,
+        visibility 0.5s ease;
+}
+
+
+/* حالت باز */
+#menuo.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}

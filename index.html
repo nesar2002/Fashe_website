@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="src/master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <div class="w-full max-w-[1400px] h-[5000px] mx-auto">
+
+
+   <div class="h-10 w-full bg-black flex items-center justify-center relative ">
+    <span class="text-white">Carbon neutral delivery on every order</span>
+   </div>
+
+   <!-- --------------------------Nav-bar--------------------------------- -->
+   <div class="w-full h-20 bg-white border flex  items-center justify-between px-4 sticky top-0 left-0 z-50 ">
+
+    
+     <!-- ---------------------------menu_bar--------------------------- -->
+    <div id="menuo" class=" p-10 flex   justify-between">
+     
+        <!-- --------------list-----------------------------------   -->
+           <ul class=" gap-y-8 flex flex-col mt-10 ">
+           <li
+               class="group w-full flex justify-center  text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">Home</a>
+          </li>
+               
+            <li
+               class="group w-full flex justify-center  text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">Shop</a>
+          </li>
+             <li
+               class="group w-full flex justify-center  text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">Product</a>
+          </li>
+            <li
+               class="group w-full flex justify-center   text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">Blogs</a>
+          </li>
+            <li
+               class="group w-full flex justify-center   text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">About</a>
+          </li>
+            <li
+               class="group w-full flex justify-center  text-xl font-light">
+               <a href="#" class="relative after:absolute after:left-1/2 after:-bottom-2 after:h-[1px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 group-hover:after:w-full">Contact</a>
+          </li>
+        </ul>
+
+         <!-- ------------icon------------------------- -->
+      <span id="btn_close" class="group mt-0 h-15 w-15 flex justify-center items-center rounded-full cursor-pointer border border-black/10 bg-white transition-all duration-300 ease-out hover:bg-black hover:text-white hover:scale-110 hover:shadow-[0_8px_25px_rgba(0,0,0,0.2)] lg:hidden ">
+         <i class="bi bi-card-list text-xl transition-transform duration-300 group-hover:rotate-180"></i>
+          </span>
+          
+    </div>
+
+
+
+     
+     <div class=" h-full w-40 relative  flex  items-center  justify-between text-2xl p-2 ">
+       <!-- -------------------list-------------------- -->
+        <span id="btn"class="group h-12 w-12 flex justify-center items-center rounded-full cursor-pointer border
+         border-black/10 bg-white transition-all duration-300 ease-out hover:bg-black hover:text-white hover:scale-110
+                hover:shadow-[0_8px_25px_rgba(0,0,0,0.2)] lg:hidden">
+             <i class="bi bi-card-list text-xl transition-transform duration-300 group-hover:rotate-180"></i>
+         </span>
+
+
+        <span  class="font-bold ">Fashe <span class="text-red-700 text-4xl">.</span> </span>
+
+
+     </div>
+
+     <div class="h-full w-100 hidden lg:block ">
+        <ul class="flex h-full justify-between ">
+            <li class=" w-15 h-full flex justify-center items-center font-light">
+                <a href="Home">Home</a>
+            </li>
+            <li class="  w-15 h-full flex justify-center items-center font-light">
+                <a href="Shop"></a>Shop
+            </li>
+            <li class="  w-15 h-full flex justify-center items-center font-light">
+                <a href="Product"></a>Product
+            </li>
+            <li class="  w-15 h-full flex justify-center items-center font-light">
+                <a href="Blog">Blog</a>
+            </li>
+            <li class="  w-15 h-full flex justify-center items-center font-light">
+                <a href="About"></a>About
+            </li>
+            <li class=" w-15 h-full flex justify-center items-center font-light">
+                <a href="Contact"></a>Contact
+            </li>
+        </ul>
+     </div>
+
+
+     <div class="h-full w-30 items-center justify-center flex gap-6">
+        <span class="text-black "><i class="bi bi-search"></i></span>
+        <span class="text-black "><i class="bi bi-person"></i></span>
+        <span class="text-black "><i class="bi bi-shop"></i></span>
+     </div>
+
+   </div>
+    <!-- -----------End---------------Nav-bar--------------------------------- -->
+
+   <!-- -----------------------------img-site------------------------------ -->
+
+           <div class="w-full h-115">
+              <figure class="w-full h-115 relative ">
+                <img class="w-full h-115 object-cover brightness-65" src="src/img/hero-1.jpg" alt="">
+                <div class="h-115 w-full absolute top-0 left-0  bg-black/30  flex flex-col justify-center items-center  text-white text-center">
+             <span class="text-sm uppercase tracking-[4px] mb-4"> New season </span>
+        
+                 <h1 class="text-5xl md:text-6xl font-light leading-tight">New season <br> <span class="font-semibold">essentials</span> </h1>
+        
+            <h3 class="mt-5 text-sm md:text-base font-light text-white/80">
+                Considered pieces, made to be worn every day.
+            </h3>
+        
+            <span class="mt-8 px-10 py-3 border border-white flex items-center justify-center text-sm uppercase  tracking-widest hover:bg-white hover:text-black transition duration-300 cursor-pointer">
+                Shop now
+            </span>
+                   </div>
+                  </figure>
+           </div>
+
+            <!-- -------------End----------------img-site------------------------------ -->
+
+             
+                  <div class="h-10 w-full bg-black flex items-center justify-center">
+                   <span class="text-white">Carbon neutral delivery on every order</span>
+                  </div>
+            <!-- -------------------------Shop by category------------------- -->
+
+            <h1 class="m-15 text-3xl font-bold">Shop by category</h1>
+
+            <div class="w-full m-h-115 grid md:grid-cols-2 lg:grid-cols-3 gap-10  px-10 relative ">
+
+                    <figure class="w-full h-115 relative  ">
+                     <img class="w-full h-115 object-cover brightness-65 rounded-2xl" src="src/img/collection-clothing.jpg" alt="">
+                       <div class=" absolute bottom-8 left-1/2 -translate-x-1/2 w-[80%] h-12 bg-white rounded-sm flex items-center
+                        justify-between cursor-pointer transition duration-300 hover:scale-105"> 
+                        <span class="w-20 h-full  justify-center items-center flex pl-6"><a href="Clothing"></a>Clothing</span>
+                        <span class="text-black p-5"><i class="bi bi-chevron-right"></i></span>
+                       </div>
+                   </figure>
+
+
+                   
+                    <figure class="w-full h-115 relative  ">
+                     <img class="w-full h-115 object-cover brightness-65 rounded-2xl" src="src/img/collection-jewellery.jpg" alt="">
+                       <div class=" absolute bottom-8 left-1/2 -translate-x-1/2 w-[80%] h-12 bg-white rounded-sm flex items-center
+                        justify-between cursor-pointer transition duration-300 hover:scale-105"> 
+                        <span class="w-20 h-full  justify-center items-center flex pl-6"><a href="Jewellry"></a>Jewellry</span>
+                        <span class="text-black p-5"><i class="bi bi-chevron-right"></i></span>
+                       </div>
+                   </figure>
+
+
+
+                   <figure class="w-full h-115 relative  ">
+                     <img class="w-full h-115 object-cover brightness-65 rounded-2xl" src="src/img/collection-bags.jpg" alt="">
+                       <div class=" absolute bottom-8 left-1/2 -translate-x-1/2 w-[80%] h-12 bg-white rounded-sm flex items-center
+                        justify-between cursor-pointer transition duration-300 hover:scale-105"> 
+                        <span class="w-20 h-full  justify-center items-center flex pl-6"><a href="Bag"></a>Bag</span>
+                        <span class="text-black p-5"><i class="bi bi-chevron-right"></i></span>
+                       </div>
+                   </figure>
+
+            </div>
+
+          <!-- ------------End-------------Shop by category------------------- -->
+
+         <!-- ---------------------------------New arrivals----------------------- -->
+           <div class="w-full min-h-100  my-20 ">
+
+            <div class="w-full h-30 flex justify-between items-center p-5 ">
+                <span class=" h-30 w-50 md:w-100 justify-center p-5 ">
+                    <span class="font-light">Just landed</span>
+                    <h1 class="font-bold text-2xl md:text-3xl">New arrivals</h1>
+                </span>
+                <span class=" h-10 w-20 flex items-center justify-center text-black hover:bg-black border
+                  hover:text-white  transition duration-300">View all</span>
+            </div>
+
+
+           <!-- -----------------------cart-------------------------- -->
+
+
+             <div class="w-full min-h-screen  justify-between items-center  grid grid-cols-2
+             gap-5 md:grid-cols-4 p-10 gap-y-10">
+
+
+             <!-- -------cart1------ -->
+
+
+             <figure class=" min-h-100 product-card relative ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-wallet.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                  <div class=" QuickAdd  h-10 w-50 border flex justify-center items-center absolute bg-black 
+                   top-80 left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Cotton Knit Poncho</span>
+                    <span>80.00</span>
+                    <span class="h-5 w-5 bg-amber-500 border rounded-full"></span>
+                </div>
+             </figure>
+
+                 <!-- -------cart2------ -->
+             <figure class=" min-h-100 product-card relative  ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-suit.jpg"
+                   data-original="src/img/product-bomber.jpg"
+                   data-hover="src/img/product-backpack.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div  class=" QuickAdd  h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out  ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Leather Biker Jacket</span>
+                    <span>249.00</span>
+                    <span class="h-5 w-5 bg-amber-300 border rounded-full"></span>
+                </div>
+             </figure>
+
+               <!-- -------cart3------ -->
+             <figure class=" min-h-100 product-card relative  ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-red-knit.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div class="QuickAdd  h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out  ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Suede Bomber Jacket</span>
+                    <span>180.00</span>
+                    <span class="h-5 w-5 bg-amber-800 border rounded-full"></span>
+                </div>
+             </figure>
+
+               <!-- -------cart4------ -->
+             <figure class=" min-h-100 product-card relative  ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-poncho.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div class=" QuickAdd h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out  ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Graphic Cotton Tee</span>
+                    <span>149.00</span>
+                    <span class="h-5 w-5 bg-amber-200 border rounded-full"></span>
+                </div>
+             </figure>
+               <!-- -------cart5------ -->
+             <figure class=" min-h-100 product-card relative  ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-backpack.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div  class="QuickAdd  h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out  ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Tailored Three-Piece Suito</span>
+                    <span>430.00</span>
+                    <span class="h-5 w-5 bg-amber-400 border rounded-full"></span>
+                </div>
+             </figure>
+
+               <!-- -------cart6------ -->
+             <figure class=" min-h-100 product-card relative  ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-backpack.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div class=" QuickAdd h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Canvas Tote Bag</span>
+                    <span>49.00</span>
+                    <span class="h-5 w-5 bg-amber-600 border rounded-full"></span>
+                </div>
+             </figure>
+
+               <!-- -------cart7------ -->
+             <figure class=" min-h-100 product-card  relative ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-biker-jacket.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-backpack.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div class="QuickAdd  h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Everyday Backpack</span>
+                    <span>80.00</span>
+                    <span class="h-5 w-5 bg-amber-300 border rounded-full"></span>
+                </div>
+             </figure>
+
+               <!-- -------cart8------ -->
+             <figure class=" min-h-100 product-card  relative ">
+                <img class="product-image w-full h-full object-cover transition duration-500"
+                  src="src/img/product-poncho.jpg"
+                   data-original="src/img/product-biker-jacket.jpg"
+                   data-hover="src/img/product-backpack.jpg"
+                   alt="Cotton Knit Poncho"
+                  >
+                   <div  class=" QuickAdd h-10 w-50 border flex justify-center items-center absolute bg-black
+                     top-80  left-1/2 bottom-4 -translate-x-1/2
+                   opacity-0 translate-y-3  transition-all duration-500 ease-out  ">
+                     <span class="text-white">QuickAdd</span>
+                  </div>
+                <div class=" h-20 w-full flex flex-col text-brwon ">
+                    <span class=" font-bold mt-3">Bifold Leather Wallet</span>
+                    <span>89.00</span>
+                    <span class="h-5 w-5 bg-amber-200 border rounded-full"></span>
+                </div>
+             </figure>
+           </div>
+           </div>
+            <!-- --------------End-------------------New arrivals----------------------- -->
+
+
+            <!-- -------------------------Made to last---------------------------- -->
+
+             <div class="w-full min-h-screen md:h-90 bg-kraime grid grid-cols-1 md:grid-cols-2  ">
+              <div class=" w-full h-100 ">
+                <!-- -----------img---------------- -->
+                <figure class="p-10">
+                  <img class="object-cover " src="src/img/about-rack.jpg" alt="">
+                </figure>
+              </div>
+              <!-- ---------------------content------------------- -->
+              <div class=" w-full min-h-60  md:min-h-100 flex justify-center  flex-col  gap-y-6 p-10">
+                <h1 class="text-2xl font-bold md:text-3xl">Made to last</h1>
+                <span class="text-brwon">Natural fibres, considered construction and a fit that holds its shape. We would rather sell you one jacket you keep for ten years than three you replace every season.</span>
+                  <span class=" h-10 w-30 flex items-center justify-center text-black hover:bg-black border
+                  hover:text-white  transition duration-300">OUR STORY</span>
+
+              </div>
+             </div>
+             <!-- --------------End---------------Made to last-------------------------- -->
+
+             <!-- -----------------------Why shop with us------------------ -->
+
+             <div class="w-full min-h-100  ">
+              <!-- ----------------content1--------------- -->
+              <div class=" h-30 ">
+                <h1 class="p-10 font-bold text-2xl md:text-3xl">Why shop with us</h1>
+              </div>
+
+              <!-- ---------------content2------------- -->
+              <div class=" h-50  grid sm:grid-cols-2 md:grid-cols-3">
+                <div class="h-20 flex items-center justify-center flex-col">
+                  <h1 class="font-bold ">Free shipping</h1>
+                  <span class="font-light">On all orders over $100, worldwide.</span>
+                </div>
+                <div class="h-20  flex items-center justify-center flex-col">
+                  <h1 class="font-bold">30 day returns</h1>
+                  <span class="font-light">Not right? Send it back, no questions.</span>
+                </div>
+                <div class="h-20  flex items-center justify-center flex-col">
+                  <h1 class="font-bold">Made responsibly</h1>
+                  <span class="font-light">Traceable materials and fair factories.</span>
+                </div>
+              </div>
+             </div>
+
+             <!-- -------------End---------------Why shop with us--------------------- -->
+
+             <!-- ---------------------------------------Journal------------------------ -->
+
+                <div class="w-full min-h-screen   ">
+                   <div class=" h-30 w-full flex  justify-between p-10">
+                    <h1 class="font-bold text-2xl md:text-4xl">Journal</h1>
+                 <span class=" h-10 w-22 md:w-30  text-[12px] flex items-center justify-center text-black hover:bg-black border
+                  hover:text-white  transition duration-300">ALL PHTOS</span>
+                   </div>
+
+                   <div class="min-h-100 w-full p-6 gap-4 grid sm:grid-cols-2 md:grid-cols-3">
+
+                    <!-- --------------img1----------------- -->
+                    <figure class="min-h-110 w-full  ">
+                      <img class="object-cover" src="src/img/blog-1.jpg" alt="">
+                     <div class="w-full mt-6 flex justify-center flex-col gap-y-4 ">
+                       <span class="text-[12px] text-brwon">12 August 2026 · Style</span>
+                      <h1 class="font-bold">The white shirt that goes with everything</h1>
+                      <span class="text-brwon text-[15px]">One shirt, six ways. How a single well-cut white shirt quietly does most of the work in a considered wardrobe.</span>
+                     </div>
+                    </figure>
+                    <!-- ----------------img2------------------- -->
+                     <figure class="min-h-110 w-full  ">
+                      <img class="object-cover" src="src/img/blog-2.jpg" alt="">
+                     <div class="w-full  mt-6 flex justify-center flex-col gap-y-4 ">
+                       <span class="text-[12px] text-brwon">28 July 2026 · Guides</span>
+                      <h1 class="font-bold">How to build a capsule wardrobe that lasts</h1>
+                      <span class="text-brwon text-[15px]">Fewer, better pieces. A practical method for cutting a wardrobe down to the things you actually reach for.</span>
+                     </div>
+                    </figure>
+                    <!-- -------------------img3--------------------------- -->
+                    <figure class="min-h-110 w-full  ">
+                      <img class="object-cover" src="src/img/blog-3.jpg" alt="">
+                     <div class="w-full mt-6  flex justify-center flex-col gap-y-4 ">
+                       <span class="text-[12px] text-brwon">9 July 2026 · Care</span>
+                      <h1 class="font-bold">Caring for natural fibres so they last a decade</h1>
+                      <span class="text-brwon text-[15px]">Wool, linen and cotton all want different things. A short guide to washing, drying and storing them properly.</span>
+                     </div>
+                    </figure>
+                   </div>
+                </div>
+               <!-- --------------End-------------------------Journal------------------------ -->
+
+
+               <!-- ----------------------------SoialMedia----------------------------- -->
+                  <div class=" grid sm:grid-cols-2 md:grid-cols-3">
+
+                    <!-- -----------------fashe------------------- -->
+                    <div class=" flex justify-center gap-y-4 p-6 flex-col">
+                      <h1 class="text-[14px] font-bold">Fashe</h1>
+                      <span class="text-[10px ] font-light text-brwon">Modern wardrobe essentials, made to last. Fewer, better pieces in natural fibres.</span>
+                      <div class="flex gap-x-6">
+
+                            <span class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition-all
+                            duration-300 ease-out hover:-translate-y-1 hover:scale-110 hover:shadow-[0_8px_25px_rgba(255,195,51,0.35)]
+                             hover:border-kraime cursor-pointer">
+                               <i class="bi bi-facebook text-lg"></i>
+                           </span>
+
+                           <span class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition-all
+                            duration-300 ease-out hover:-translate-y-1 hover:scale-110 hover:shadow-[0_8px_25px_rgba(255,195,51,0.35)]
+                             hover:border-kraime cursor-pointer">
+                               <i class="bi bi-instagram text-lg"></i>
+                           </span>
+
+                           <span class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 transition-all 
+                           duration-300 ease-out hover:-translate-y-1 hover:scale-110 hover:shadow-[0_8px_25px_rgba(255,195,51,0.35)]
+                            hover:border-kraime cursor-pointer">
+                               <i class="bi bi-threads text-lg"></i>
+                           </span>
+
+                           </div>
+                       </div>
+                    <!-- --------------shop------------------ -->
+                    <div class=" flex flex-col gap-y-3 p-6 mt-4">
+                      <h1 class="font-bold text-[12px]">Shop</h1>
+                       <span class="text-[14px] font-light text-brwon">Cloating</span>
+                       <span class="text-[14px] font-light text-brwon">Bags</span>
+                       <span class="text-[14px] font-light text-brwon">Accessories</span>
+                       <span class="text-[14px] font-light text-brwon">Jewellery</span>
+                       <span class="text-[14px] font-light text-brwon">Shoes</span>
+                    </div>
+                    <div class=" flex flex-col gap-y-3 p-6 mt-4">
+                       <h1 class="font-bold text-[12px]">Help</h1>
+                       <span class="text-[14px] font-light text-brwon">Contact us</span>
+                       <span class="text-[14px] font-light text-brwon">Shipping</span>
+                       <span class="text-[14px] font-light text-brwon">Returns</span>
+                       <span class="text-[14px] font-light text-brwon">Size guide</span>
+                       <span class="text-[14px] font-light text-brwon">FAQ</span>
+                    </div>
+                    <div class=" flex flex-col gap-y-3 p-6 mt-4">
+                      <h1  class="font-bold text-[12px]">Newsletter</h1>
+                      <span  class="text-[14px] font-light text-brwon">New arrivals and offers, straight to your inbox.</span>
+                        <input class="w-full h-12 px-4 border border-gray-300 outline-none focus:border-black transition
+                       duration-300" placeholder="Enter Your Email" type="email">
+                  
+                      <button class="h-12 px-7 bg-black text-white border border-black hover:bg-white hover:text-black 
+                       transition-all duration-300 whitespace-nowrap">View all </button>
+                    </div>
+                 
+                  </div>
+
+                  <!-- ---------End-------------------SoialMedia----------------------------- -->
+               
+
+   </div>
+</body>
+<script src="src/main.js"></script>
+</html>
